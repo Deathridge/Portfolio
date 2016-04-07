@@ -14,7 +14,7 @@ html, body {
 .home {
   background-image: url('http://s11.postimg.org/6ud4xbkqr/congruent_outline.png');
   background-repeat: repeat-xy;
-  padding-top: 20%; 
+  padding-top: 15%; 
   padding-bottom:15%;
 }
 
@@ -67,10 +67,19 @@ html, body {
   color: white;
 }
 
-@media (min-width:0px) and (max-width:768px){
-.home-buttons li{
-  display:block;
+.home-buttons {
+  padding-left: 0px;
 }
+@media (min-width:768px){
+.home-buttons li{
+  display:inline-block;
+}
+}
+@media (min-width:0px) and (max-width:768px){
+
+  .home-buttons {
+    display:block;
+  }
   .btn {
     margin:4px;
   }
@@ -81,11 +90,19 @@ html, body {
   text-align: center;
 }
 
+@media (min-width:0px) and (max-width:768px){
+  .home-column > h1 {
+    font-size: 2em;
+  }
+}
+
 .home-column > h1 {
   color: #bfbfbf;
   text-shadow: 2px 2px black;
   font-size: 5em;
 }
+
+
 
 .about-column {
   padding-top:15%;
@@ -151,9 +168,16 @@ html, body {
   width:100%;
   display:block;
 }
-#Contact {
-  padding-left: 20%;
+
+
+
+
+
+
+#Contact {   
+  text-align: center;
 }
+
 
 #Contact h1 {
   color: white;
@@ -167,6 +191,12 @@ html, body {
 .contact-buttons li {
   display:block;
   margin: 2%;
+  
+}
+
+.contact-buttons {
+  padding-left: 0px;
+  text-align: center;
 }
 
 
