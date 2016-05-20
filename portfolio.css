@@ -12,27 +12,27 @@ html, body {
 }
 /*Set image and padding for each section */
 .home {
-  background-image: url('http://s11.postimg.org/6ud4xbkqr/congruent_outline.png');
+  background-image: url('https://s11.postimg.org/6ud4xbkqr/congruent_outline.png');
   background-repeat: repeat-xy;
   padding-top: 15%; 
   padding-bottom:15%;
 }
 
 .about {
-  background-image:url('http://s8.postimg.org/niyqr76o5/ignasi_pattern_s.png');
+  background-image:url('https://s8.postimg.org/niyqr76o5/ignasi_pattern_s.png');
   background-repeat: repeat-xy;
   padding-bottom:15%;
 }
 
 .portfolio {
-  background-image: url('http://s13.postimg.org/hetola8xj/skulls.png');
+  background-image: url('https://s13.postimg.org/hetola8xj/skulls.png');
   background-repeat:repeat-xy;
   padding-bottom:15%;   
   text-align: center;  
 }
 
 .contact {
-  background-image:url('http://s11.postimg.org/6ud4xbkqr/congruent_outline.png');
+  background-image:url('https://s11.postimg.org/6ud4xbkqr/congruent_outline.png');
   background-repeat:repeat-xy;
   padding-bottom:15%;
   padding-top:10%;
