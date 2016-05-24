@@ -103,12 +103,9 @@ html, body {
 }
 
 
-
-.about-column {
-  margin:10%;
-}
 .about-column h1 {  
   font-weight:bold;
+  margin:10%;
 }
 .about-column p { 
   font-size:1.5em;
@@ -148,11 +145,10 @@ html, body {
   float: left;
   clear: left;  
 }
-.portfolio-column {
-  margin: 10%;
-}
+
 .portfolio-column h1 {  
   font-weight:bold;
+  margin: 10%;
 }
 
 #portfolio-items {    
