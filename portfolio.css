@@ -160,12 +160,12 @@ html, body {
 }
 .portfolio-item {
   margin: 0 0 20px;
-  border: solid 5px blue;
+  
 }
 
 .portfolio-item img {
-  width:100%;  
-  text-align:center;
+  width:320px;
+  height:240px;
 }
 
 
@@ -174,6 +174,11 @@ html, body {
     padding-left:0px;
     padding-right: 0px;
   }
+
+  .portfolio-item img {
+    width:100%;  
+    text-align:center;
+  } 
 
 }
 
