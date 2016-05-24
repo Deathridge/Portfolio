@@ -105,7 +105,7 @@ html, body {
 
 
 .about-column {
-  padding-top:15%;
+  margin:10%;
 }
 .about-column h1 {  
   font-weight:bold;
@@ -149,7 +149,7 @@ html, body {
   clear: left;  
 }
 .portfolio-column {
-  margin-top: 10%;
+  margin: 10%;
 }
 .portfolio-column h1 {  
   font-weight:bold;
@@ -160,18 +160,29 @@ html, body {
 }
 .portfolio-item {
   margin: 0 0 20px;
-  boder: solid 5px green;
+  border: solid 5px blue;
 }
+
+.portfolio-item img {
+  width:100%;  
+  text-align:center;
+}
+
+
+@media (max-width: 569px){
+  #portfolio-items .portfolio-item {
+    padding-left:0px;
+    padding-right: 0px;
+  }
+
+}
+
 
 .portfolio-item a {
   height:100%;
   width:100%;
   display:block;
 }
-
-
-
-
 
 
 #Contact {   
